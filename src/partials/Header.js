@@ -1,8 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Transition from '../utils/Transition.js';
-import logo from '../images/logo.png'
-import Dropdown from '../utils/Dropdown';
 
 function Header() {
 
