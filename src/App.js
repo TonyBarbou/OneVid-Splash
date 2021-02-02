@@ -23,6 +23,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import PageNotFound from './pages/PageNotFound';
+import Newsletterin from './pages/NewsletterIn';
 
 function App() {
 
@@ -81,6 +82,9 @@ function App() {
         </Route>
         <Route path="/reset-password">
           <ResetPassword />
+        </Route>
+        <Route path="/newsletterin">
+          <Newsletterin/>
         </Route>
         <Route path="*">
           <PageNotFound />
