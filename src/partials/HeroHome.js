@@ -38,7 +38,7 @@ function HeroHome() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">OneVid est encore en développement, n'hésitez pas à rejoindre la liste d'attente ci-dessous pour être tenu au courant de l'avancée.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
               <form action="https://onevid.us7.list-manage.com/subscribe/post?u=c92512f2933547280c4b87d51&amp;id=0de054c912" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="email address" required className="border-black border2 border-solid" placeholder="Adresse e-mail" />
+                <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="email address" required className="border-black border2 border-solid" placeholder="Adresse e-mail" style={{"text-align":"center","margin-bottom": "20px"}}/>
                 <button className="btn bg-blue-500 text-white">Tenez-moi informé !</button>
               </form>
               </div>
