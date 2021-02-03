@@ -35,7 +35,7 @@ function HeroHome() {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Créez du contenu vidéo <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-700 to-blue-400">original</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">OneVid est encore en développement, n'hésitez pas à rejoindre la liste d'attente ci-dessous pour être tenu au courant de l'avancée.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">OneVid est encore en développement, n'hésitez pas à rejoindre la liste d'attente ci-dessous pour être tenu au courant de l'avancement du projet.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
               <form action="https://onevid.us7.list-manage.com/subscribe/post?u=c92512f2933547280c4b87d51&amp;id=0de054c912" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="email address" required className="border-black border2 border-solid" placeholder="Adresse e-mail" style={{"text-align":"center","margin-bottom": "20px"}}/>
