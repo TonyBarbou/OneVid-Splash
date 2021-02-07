@@ -38,9 +38,9 @@ function PageNotFound() {
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               <div className="max-w-3xl mx-auto text-center">
                 {/* 404 content */}
-                <h1 className="h1 mb-4">Oh, No! You stumbled upon a rarity</h1>
+                <h1 className="h1 mb-4">Oh, Non! Cette page n'existe pas encore car le site est en construction !</h1>
                 <div className="mt-8">
-                  <Link to="/" className="btn text-white bg-blue-600 hover:bg-blue-700">Go back home</Link>
+                  <Link to="/" className="btn text-white bg-blue-600 hover:bg-blue-700">Retourner à l'accueil</Link>
                 </div>
               </div>
             </div>

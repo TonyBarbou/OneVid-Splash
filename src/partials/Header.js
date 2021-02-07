@@ -57,19 +57,19 @@ function Header() {
             {/* Desktop menu links */}
             <ul className="flex flex-grow flex-wrap justify-center items-center" >
               <li>
-                <Link to="/pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Tarification</Link>
+                <Link to="/404" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Tarification</Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">À propos de nous</Link>
+                <Link to="/404" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">À propos de nous</Link>
               </li>
               <li>
-                <Link to="/blog" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</Link>
+                <Link to="/404" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</Link>
               </li>              
                 <li>
-                  <Link to="/documentation" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Documentation</Link>
+                  <Link to="/404" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Documentation</Link>
                 </li>
                 <li>
-                  <Link to="/support" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Support</Link>
+                  <Link to="/404" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Support</Link>
                 </li>
             </ul>
 
