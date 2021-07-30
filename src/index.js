@@ -4,7 +4,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import ReactGA from 'react-ga';
-import { createBrowserHistory } from 'history';
 
 ReactGA.initialize('UA-203672436-1');
 ReactGA.pageview(window.location.pathname + window.location.search);

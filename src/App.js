@@ -2,9 +2,11 @@ import React, { useEffect } from 'react';
 import {
   Switch,
   Route,
-  useLocation
+  useLocation,
+  BrowserRouter,
+  Link,
+  useHistory 
 } from 'react-router-dom';
-
 
 
 import './css/style.scss';
@@ -48,6 +50,18 @@ function App() {
     document.querySelector('html').style.scrollBehavior = ''
     focusHandling('outline');
   }, [location.pathname]); // triggered on route change
+
+  const history = useHistory();
+
+  useEffect(() => {
+      trackPageView(); // To track the first pageview upon load
+      history.listen(trackPageView); // To track the subsequent pageviews
+    }, [history]);
+
+    function trackPageView() {
+      ReactGA.set({ page: location.pathname }); // Update the user's current page
+      ReactGA.pageview(location.pathname); // Record a pageview for the given page
+    }
 
   return (
     <>
