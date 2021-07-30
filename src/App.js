@@ -4,8 +4,8 @@ import {
   Route,
   useLocation
 } from 'react-router-dom';
-import ReactGA from 'react-ga';
-import RouteChangeTracker from './RouteChangeTracker';
+
+
 
 import './css/style.scss';
 
@@ -26,9 +26,6 @@ import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import PageNotFound from './pages/PageNotFound';
 import Newsletterin from './pages/NewsletterIn';
-
-ReactGA.initialize('G-JSJ8MVBPFY');
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
 

@@ -3,10 +3,22 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from "react-router-dom";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
+
+ReactGA.initialize('G-JSJ8MVBPFY');
+ReactGA.pageview(window.location.pathname + window.location.search);
+const history = createBrowserHistory();
+
+// Initialize google analytics page view tracking
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router history={history}>
       <App />
     </Router>
   </React.StrictMode>,
