@@ -20,7 +20,7 @@ function HeroHome() {
           <div className="pb-12 md:pb-16">
             <h1 className="text-4xl md:text-4xl font-extrabold leading-tighter tracking-tighter mb-4 text-left	" data-aos="zoom-y-out">Créez des vidéos marketing uniques<br/>avec <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-700 to-blue-400">OneVid</span></h1>
             <div className="w-full">
-            <Link to="/Pricing" className="sm:hidden inline-block text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"><button className="border-0 btn bg-gradient-to-r from-indigo-700 to-blue-400 text-white">Voir les offres</button></Link>
+            <Link to="/pricing" className="sm:hidden inline-block text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"><button className="border-0 btn bg-gradient-to-r from-indigo-700 to-blue-400 text-white">Voir les offres</button></Link>
             <div className="ml-0 sm:ml-20 mt-20 text-left sm:flex w-full" data-aos="zoom-y-out" data-aos-delay="300">
               <ol className="w-full text-3xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 text-left">
                 <li><span className="leading-loose text-white px-8 py-2 bg-gradient-to-r from-indigo-700 to-blue-400 rounded-full inline-block">1</span><ul className="inline-block ml-5 align-middle"><li><span className="text-2xl">Choisissez une trame</span></li><li><span className="text-base font-normal">Des centaines de trames vidéos préfaites pour divers occasions</span></li></ul></li>
@@ -29,7 +29,7 @@ function HeroHome() {
                 
               </ol>
               <div className="sm:w-3/12 sm:inline-flex float-right mr-20 hidden">               
-                <Link to="/Pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"><button className="border-0 bg-gradient-to-r from-indigo-700 to-blue-400 btn text-white">Voir les offres</button></Link>
+                <Link to="/pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"><button className="border-0 bg-gradient-to-r from-indigo-700 to-blue-400 btn text-white">Voir les offres</button></Link>
               </div>
               </div>
             </div>
