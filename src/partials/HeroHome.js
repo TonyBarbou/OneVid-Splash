@@ -14,7 +14,7 @@ function HeroHome() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Hero content */}
-        <div className="pt-20 pb-12 md:pt-20 md:pb-20">
+        <div className="pt-20 md:pt-20 ">
 
           {/* Section header */}
           <div className="pb-12 md:pb-16">
@@ -35,10 +35,12 @@ function HeroHome() {
             </div>
           </div>
         </div>
+        <div className="hidden">
         <form action="https://onevid.us7.list-manage.com/subscribe/post?u=c92512f2933547280c4b87d51&amp;id=0de054c912" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="email address" required className="border-black border2 border-solid" placeholder="Adresse e-mail" style={{"text-align":"center","margin-bottom": "20px"}}/>
                 <button className="btn bg-blue-500 text-white">Tenez-moi informé !</button>
               </form>
+        </div>
       </div>
     </section>
     
