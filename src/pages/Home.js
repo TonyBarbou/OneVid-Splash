@@ -16,14 +16,8 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesHome />
-        <FeaturesBlocks />
-        <Cta />
 
       </main>
-
-      {/*  Site footer */}
-      <Footer />
 
     </div>
   );
